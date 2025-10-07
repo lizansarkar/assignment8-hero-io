@@ -41,7 +41,7 @@ const Header = () => {
             </ul>
           </div>
           <a href="/" className="text-xl flex items-center gap-2">
-            <img className="h-10" src="/public/logo.png" alt="logo" />
+            <img className="h-10" src="/img/logo.png" alt="logo" />
             <h1 className="font-bold text-[#632EE3]">HERO IO</h1>
           </a>
         </div>
