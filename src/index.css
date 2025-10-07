@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.colors {
+  color: #FFFFFF;
+  color: #D2D2D2;
+  color: #627382;
+  color: #632EE3;
+  color: #9F62F2;
+  color: #54CF68;
+  color: #00827A;
+  color: #404040;
+  color: #8c8c8c;
+}
