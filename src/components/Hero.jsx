@@ -10,18 +10,18 @@ const Hero = () => {
 
             <div className='google-play flex flex-col md:flex-row gap-4'>
                 <a href='/' className='flex items-center gap-2 py-2 border border-gray-300 rounded-lg px-7 hover:bg-gray-200 transition'>
-                    <img className='h-10 md:h-10' src="/public/google-play.png" alt="Google Play Store" />
+                    <img className='h-10 md:h-10' src="/img/google-play.png" alt="Google Play Store" />
                     <h4 className='font-bold'>Google Play</h4>
                 </a>
 
                 <a href='/' className='flex items-center gap-2 py-2 border border-gray-300 rounded-lg px-7 hover:bg-gray-200 transition'>
-                    <img className='h-10 md:h-10' src="/public/app-store.png" alt="Google Play Store" />
+                    <img className='h-10 md:h-10' src="/img/app-store.png" alt="Google Play Store" />
                     <h4 className='font-bold'>App Store</h4>
                 </a>
             </div>
 
             <div className='mt-10'>
-                <img src="/public/hero.png" alt="hero img" />
+                <img src="/img/hero.png" alt="hero img" />
             </div>
         </div>
     );
