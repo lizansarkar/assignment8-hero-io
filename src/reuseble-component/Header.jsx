@@ -60,7 +60,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-6 py-3 text-white font-semibold text-lg 
+          <a href="https://github.com/lizansarkar" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-6 py-3 text-white font-semibold text-lg 
         rounded-xl shadow-lg transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 
         hover:scale-[1.03] active:scale-[0.98] active:shadow-sm">
             <FaGithub className="mr-3 h-6 w-6" />
