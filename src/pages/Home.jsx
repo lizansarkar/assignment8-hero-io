@@ -8,14 +8,13 @@ import AppNotFound from './error-page/AppNotFound';
 
 const Home = () => {
     const data = useLoaderData();
-    console.log(data);
     return (
         <div>
             <Hero></Hero>
             <Facts></Facts>
             <TrendingApp data={data}></TrendingApp>
             <PageNotFound></PageNotFound>
-            <AppNotFound></AppNotFound>
+            
         </div>
     );
 };

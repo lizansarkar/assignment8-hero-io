@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
@@ -30,13 +31,13 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a>Apps</a>
+                <Link to="/apps">Apps</Link>
               </li>
               <li>
-                <a>Installation</a>
+                <Link to="/installation">Installation</Link>
               </li>
             </ul>
           </div>
@@ -49,13 +50,13 @@ const Header = () => {
             {/* main menu te show korbe mane sojasuji */}
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Apps</a>
+              <Link to="/apps">Apps</Link>
             </li>
             <li>
-              <a>Installation</a>
+              <Link to="/installation">Installation</Link>
             </li>
           </ul>
         </div>
