@@ -5,6 +5,7 @@ import PageNotFound from "../pages/error-page/PageNotFound";
 import Home from "../pages/Home";
 import Apps from "../pages/Apps";
 import Installation from "../pages/Installation";
+import { CardDetails } from "../components/CardDetails";
 
 export const router = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
         loader: () => fetch("home.json"),
         path: "/",
         Component: Home,
+        errorElement: <PageNotFound></PageNotFound>
       },
       {
         path: "/apps",
@@ -29,6 +31,10 @@ export const router = createBrowserRouter([
         path: "/installation",
         Component: Installation,
         errorElement: <PageNotFound></PageNotFound>,
+      },
+      {
+        path:'/cardDetails/:id',
+        Component: CardDetails
       }
     ],
   },

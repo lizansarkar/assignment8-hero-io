@@ -28,7 +28,6 @@ const AppNotFound = () => {
             <div className="text-center my-10">
               <a
                 href=""
-                target="_blank"
                 rel="noopener noreferrer"
                 className="px-10 py-3 text-white font-semibold text-lg 
         rounded-xl shadow-lg transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 
