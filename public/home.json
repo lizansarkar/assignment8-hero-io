@@ -1,25 +1,21 @@
 [
   {
     "image": "https://picsum.photos/seed/app1/300/200",
-    "title": "TaskMaster Pro",
+    "title": "Ultimate TaskMaster Pro",
     "companyName": "NextGen Studios",
     "id": 1,
-    "description": "একটি স্মার্ট টাস্ক ম্যানেজার অ্যাপ যা দিয়ে তুমি দৈনন্দিন কাজগুলো সহজে সংগঠিত করতে পারবে।",
+    "description": "একটি স্মার্ট টাস্ক ম্যানেজার অ্যাপ যা দিয়ে তুমি দৈনন্দিন কাজগুলো সহজে সংগঠিত করতে পারবে।",
     "size": 45,
     "reviews": 1234,
     "ratingAvg": 4.5,
     "downloads": 500000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 484 }
+      { "name": "5", "count": 484 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app2/300/200",
-    "title": "PhotoBlend",
+    "title": "Super PhotoBlend Editor",
     "companyName": "PixelWorks",
     "id": 2,
     "description": "একটি সহজ কিন্তু শক্তিশালী ফটো এডিটর, যেখানে তুমি ফিল্টার, ইফেক্ট আর ব্যাকগ্রাউন্ড ব্লার দিতে পারবে।",
@@ -28,191 +24,91 @@
     "ratingAvg": 4.2,
     "downloads": 850000,
     "ratings": [
-      { "name": "1 star", "count": 250 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 520 },
-      { "name": "4 star", "count": 890 },
-      { "name": "5 star", "count": 1150 }
+      { "name": "4", "count": 890 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app3/300/200",
-    "title": "MindSpace",
-    "companyName": "CalmTech Ltd.",
+    "title": "Secure Vault Manager",
+    "companyName": "SafeTech Solutions",
     "id": 3,
-    "description": "মেডিটেশন ও ফোকাস অ্যাপ, যেটা মানসিক শান্তি ও মনোযোগ বৃদ্ধিতে সাহায্য করে।",
-    "size": 38,
-    "reviews": 980,
-    "ratingAvg": 4.7,
+    "description": "পাসওয়ার্ড এবং ব্যক্তিগত ফাইল সুরক্ষিত রাখার জন্য সেরা অ্যাপ।",
+    "size": 30,
+    "reviews": 850,
+    "ratingAvg": 4.8,
     "downloads": 320000,
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 210 },
-      { "name": "5 star", "count": 520 }
+      { "name": "5", "count": 620 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app4/300/200",
-    "title": "FitnessMate",
-    "companyName": "ActiveEdge",
+    "title": "Daily Fitness Coach",
+    "companyName": "HealthFlow",
     "id": 4,
-    "description": "দৈনন্দিন ব্যায়াম ট্র্যাক করার জন্য পারফেক্ট ফিটনেস ট্র্যাকার অ্যাপ।",
-    "size": 72,
-    "reviews": 2890,
-    "ratingAvg": 4.4,
-    "downloads": 1100000,
+    "description": "তোমার ব্যক্তিগত ওয়ার্কআউট ট্র্যাকার এবং ফিটনেস গাইড।",
+    "size": 75,
+    "reviews": 5400,
+    "ratingAvg": 4.1,
+    "downloads": 1200000,
     "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 260 },
-      { "name": "3 star", "count": 390 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 1340 }
+      { "name": "3", "count": 450 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app5/300/200",
-    "title": "EcoShop",
-    "companyName": "GreenCart Inc.",
+    "title": "Global News Hub",
+    "companyName": "InfoStream Media",
     "id": 5,
-    "description": "একটি অনলাইন শপিং অ্যাপ যেখানে সব ইকো-ফ্রেন্ডলি পণ্য পাওয়া যায়।",
-    "size": 55,
-    "reviews": 2150,
-    "ratingAvg": 4.0,
-    "downloads": 740000,
+    "description": "বিশ্বের সর্বশেষ খবর এক জায়গায়।",
+    "size": 25,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 750000,
     "ratings": [
-      { "name": "1 star", "count": 340 },
-      { "name": "2 star", "count": 280 },
-      { "name": "3 star", "count": 430 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 500 }
+      { "name": "4", "count": 550 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app6/300/200",
-    "title": "LangFlow",
-    "companyName": "EduVerse",
+    "title": "Creative Code IDE",
+    "companyName": "DevGenius",
     "id": 6,
-    "description": "নতুন ভাষা শেখার জন্য মজাদার ইন্টারঅ্যাক্টিভ অ্যাপ।",
+    "description": "মোবাইল থেকে কোডিং শেখার এবং প্র্যাকটিস করার প্ল্যাটফর্ম।",
     "size": 90,
-    "reviews": 5400,
-    "ratingAvg": 4.6,
-    "downloads": 1500000,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 480000,
     "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 370 },
-      { "name": "3 star", "count": 610 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 3020 }
+      { "name": "5", "count": 1200 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app7/300/200",
-    "title": "NoteWave",
-    "companyName": "Skyline Apps",
+    "title": "Kids Learning Fun",
+    "companyName": "EduPlay Games",
     "id": 7,
-    "description": "নোট নেওয়া ও অডিও রেকর্ড রাখার জন্য পারফেক্ট অ্যাপ।",
-    "size": 25,
-    "reviews": 1670,
-    "ratingAvg": 4.3,
-    "downloads": 410000,
+    "description": "শিশুদের জন্য শিক্ষামূলক গেম এবং কার্যকলাপ।",
+    "size": 55,
+    "reviews": 1500,
+    "ratingAvg": 3.9,
+    "downloads": 900000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 280 },
-      { "name": "4 star", "count": 520 },
-      { "name": "5 star", "count": 600 }
+      { "name": "2", "count": 180 }
     ]
   },
   {
     "image": "https://picsum.photos/seed/app8/300/200",
-    "title": "TravelBee",
-    "companyName": "ExploreNow",
+    "title": "Simple Cooking Recipes",
+    "companyName": "KitchenHacks",
     "id": 8,
-    "description": "ভ্রমণ পরিকল্পনা ও টিকিট বুক করার জন্য সহজ একটি অ্যাপ।",
-    "size": 82,
-    "reviews": 3050,
-    "ratingAvg": 4.1,
-    "downloads": 940000,
-    "ratings": [
-      { "name": "1 star", "count": 420 },
-      { "name": "2 star", "count": 310 },
-      { "name": "3 star", "count": 590 },
-      { "name": "4 star", "count": 890 },
-      { "name": "5 star", "count": 840 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app9/300/200",
-    "title": "CodeLab",
-    "companyName": "DevSphere",
-    "id": 9,
-    "description": "প্রোগ্রামিং শেখা ও কোড প্র্যাকটিস করার জন্য অ্যাপ।",
-    "size": 70,
-    "reviews": 4780,
-    "ratingAvg": 4.8,
-    "downloads": 2100000,
-    "ratings": [
-      { "name": "1 star", "count": 220 },
-      { "name": "2 star", "count": 260 },
-      { "name": "3 star", "count": 510 },
-      { "name": "4 star", "count": 970 },
-      { "name": "5 star", "count": 2820 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app10/300/200",
-    "title": "MusicPulse",
-    "companyName": "WaveTech",
-    "id": 10,
-    "description": "তোমার পছন্দমতো গান শোনো, প্লেলিস্ট তৈরি করো এবং নতুন শিল্পী খুঁজে পাও।",
-    "size": 95,
-    "reviews": 6400,
-    "ratingAvg": 4.5,
-    "downloads": 3500000,
-    "ratings": [
-      { "name": "1 star", "count": 540 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 670 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 3590 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app11/300/200",
-    "title": "Foodify",
-    "companyName": "TastySoft",
-    "id": 11,
-    "description": "খাবার অর্ডার ও নতুন রেস্টুরেন্ট আবিষ্কারের জন্য একটি জনপ্রিয় অ্যাপ।",
-    "size": 88,
-    "reviews": 9200,
-    "ratingAvg": 4.3,
-    "downloads": 4200000,
-    "ratings": [
-      { "name": "1 star", "count": 620 },
-      { "name": "2 star", "count": 700 },
-      { "name": "3 star", "count": 1100 },
-      { "name": "4 star", "count": 1900 },
-      { "name": "5 star", "count": 4880 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app12/300/200",
-    "title": "GameZone",
-    "companyName": "AlphaPlay",
-    "id": 12,
-    "description": "বিভিন্ন মিনি গেম খেলার জন্য একটি অল-ইন-ওয়ান গেম অ্যাপ।",
-    "size": 130,
-    "reviews": 12500,
+    "description": "সহজলভ্য উপকরণ দিয়ে নতুন রেসিপি তৈরির গাইড।",
+    "size": 40,
+    "reviews": 6500,
     "ratingAvg": 4.6,
-    "downloads": 8000000,
+    "downloads": 1500000,
     "ratings": [
-      { "name": "1 star", "count": 980 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 1400 },
-      { "name": "4 star", "count": 2700 },
-      { "name": "5 star", "count": 6320 }
+      { "name": "4", "count": 2500 }
     ]
   }
 ]

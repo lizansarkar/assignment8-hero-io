@@ -1,0 +1,282 @@
+[
+  {
+    "image": "https://picsum.photos/seed/app9/300/200",
+    "title": "Smart Language Learner Pro",
+    "companyName": "LinguaTech",
+    "id": 9,
+    "description": "দ্রুত এবং মজাদার উপায়ে নতুন ভাষা শেখার একটি প্ল্যাটফর্ম।",
+    "size": 65,
+    "reviews": 4200,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "5 star", "count": 1800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app10/300/200",
+    "title": "Powerful Budget Tracker App",
+    "companyName": "MoneyWise Inc.",
+    "id": 10,
+    "description": "মাসিক বাজেট ট্র্যাক করার এবং আর্থিক লক্ষ্য অর্জনের স্মার্ট টুল।",
+    "size": 35,
+    "reviews": 2900,
+    "ratingAvg": 4.1,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "4 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app11/300/200",
+    "title": "Relaxing Sleep Sounds",
+    "companyName": "ZenLife Studios",
+    "id": 11,
+    "description": "শান্তিদায়ক শব্দ এবং মেডিটেশন গাইড যা গভীর ঘুমে সাহায্য করে।",
+    "size": 50,
+    "reviews": 7500,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app12/300/200",
+    "title": "Interactive History Quiz",
+    "companyName": "TriviaMasters",
+    "id": 12,
+    "description": "বিশ্ব ইতিহাস নিয়ে মজাদার কুইজ খেলে নিজের জ্ঞান পরীক্ষা করো।",
+    "size": 28,
+    "reviews": 1200,
+    "ratingAvg": 4.0,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "3 star", "count": 250 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app13/300/200",
+    "title": "Vector Drawing Pad",
+    "companyName": "ArtSphere",
+    "id": 13,
+    "description": "মোবাইলে ভেক্টর গ্রাফিক্স এবং ডিজাইন তৈরির জন্য পেশাদার টুল।",
+    "size": 80,
+    "reviews": 3800,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app14/300/200",
+    "title": "Ultimate eBook Reader",
+    "companyName": "PageTurner",
+    "id": 14,
+    "description": "সহজে বিভিন্ন ফরম্যাটের ইবুক পড়ার এবং কাস্টমাইজ করার অ্যাপ।",
+    "size": 20,
+    "reviews": 9200,
+    "ratingAvg": 4.3,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "4 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app15/300/200",
+    "title": "Global Weather Forecast",
+    "companyName": "SkyWatch",
+    "id": 15,
+    "description": "সঠিক এবং রিয়েল-টাইম আবহাওয়ার তথ্য।",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.7,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app16/300/200",
+    "title": "Personalized Music Mixer",
+    "companyName": "BeatWave",
+    "id": 16,
+    "description": "নিজের পছন্দমতো মিউজিক মিক্সিং এবং এডিটিং করার টুল।",
+    "size": 95,
+    "reviews": 2500,
+    "ratingAvg": 3.8,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "2 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app17/300/200",
+    "title": "Handy Unit Converter",
+    "companyName": "QuickCalc",
+    "id": 17,
+    "description": "বিভিন্ন একক (Unit) দ্রুত রূপান্তর করার সহজ অ্যাপ্লিকেশন।",
+    "size": 15,
+    "reviews": 500,
+    "ratingAvg": 4.9,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app18/300/200",
+    "title": "Professional Video Maker",
+    "companyName": "FrameWorks",
+    "id": 18,
+    "description": "মোবাইলে সহজে প্রোফেশনাল মানের ভিডিও এডিট করার টুল।",
+    "size": 120,
+    "reviews": 8800,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "4 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app19/300/200",
+    "title": "Effective Habit Builder",
+    "companyName": "GoalAchiever",
+    "id": 19,
+    "description": "নতুন অভ্যাস তৈরি করা এবং পুরনো অভ্যাস ভাঙার জন্য সহায়ক অ্যাপ।",
+    "size": 42,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 700000,
+    "ratings": [
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app20/300/200",
+    "title": "Online Food Delivery Fast",
+    "companyName": "EatsNow",
+    "id": 20,
+    "description": "খুব সহজে তোমার পছন্দের রেস্টুরেন্ট থেকে খাবার অর্ডার করো।",
+    "size": 55,
+    "reviews": 15000,
+    "ratingAvg": 4.2,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "4 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app21/300/200",
+    "title": "Simple Math Solver",
+    "companyName": "CalcGenius",
+    "id": 21,
+    "description": "জটিল গাণিতিক সমস্যা দ্রুত সমাধানের স্মার্ট ক্যালকুলেটর।",
+    "size": 25,
+    "reviews": 680,
+    "ratingAvg": 4.0,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "3 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app22/300/200",
+    "title": "Virtual Piano Keyboard",
+    "companyName": "MusicMakers",
+    "id": 22,
+    "description": "মোবাইল বা ট্যাবলেটে পিয়ানো বাজানো শেখার এবং প্র্যাকটিস করার অ্যাপ।",
+    "size": 70,
+    "reviews": 4500,
+    "ratingAvg": 4.7,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app23/300/200",
+    "title": "Instant Photo Collage",
+    "companyName": "GridCreator",
+    "id": 23,
+    "description": "বিভিন্ন ছবি ব্যবহার করে আকর্ষণীয় কোলাজ তৈরি করার সহজ টুল।",
+    "size": 48,
+    "reviews": 550,
+    "ratingAvg": 3.7,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "2 star", "count": 90 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app24/300/200",
+    "title": "World Map Explorer",
+    "companyName": "GeoTrek",
+    "id": 24,
+    "description": "পৃথিবীর বিভিন্ন স্থান এবং দেশের তথ্য জানতে ইন্টারেক্টিভ ম্যাপ।",
+    "size": 85,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 580000,
+    "ratings": [
+      { "name": "4 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app25/300/200",
+    "title": "Quick Document Scanner",
+    "companyName": "ScanMate",
+    "id": 25,
+    "description": "ক্যামেরা ব্যবহার করে যেকোনো ডকুমেন্ট স্ক্যান এবং ডিজিটাল ফরম্যাটে সেভ করার অ্যাপ।",
+    "size": 32,
+    "reviews": 7000,
+    "ratingAvg": 4.8,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app26/300/200",
+    "title": "Easy Home Workout",
+    "companyName": "FitPulse",
+    "id": 26,
+    "description": "কোনো ইকুইপমেন্ট ছাড়াই ঘরে বসে করার জন্য বিভিন্ন ওয়ার্কআউট রুটিন।",
+    "size": 68,
+    "reviews": 9500,
+    "ratingAvg": 4.3,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "4 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app27/300/200",
+    "title": "Online Shopping Deals",
+    "companyName": "BargainFinder",
+    "id": 27,
+    "description": "বিভিন্ন অনলাইন স্টোরের সেরা ডিল এবং ডিসকাউন্ট অফার খুঁজে বের করো।",
+    "size": 40,
+    "reviews": 2300,
+    "ratingAvg": 3.9,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "3 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app28/300/200",
+    "title": "Professional Business Card",
+    "companyName": "CardCraft",
+    "id": 28,
+    "description": "মোবাইলে নিজের ডিজিটাল বিজনেস কার্ড ডিজাইন ও শেয়ার করার টুল।",
+    "size": 38,
+    "reviews": 1100,
+    "ratingAvg": 4.6,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "5 star", "count": 680 }
+    ]
+  }
+]
