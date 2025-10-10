@@ -66,12 +66,15 @@ const AppCard = ({ appsData }) => {
             >
               <FaStar className="w-3 h-3 mr-2" />
               <span>
-                {appsData.ratings.map((ratingItem, index) => (
+                {
+                  appsData.ratingAvg
+                }
+                {/* vai avg ber hocce na onekgulo sokha asche */}
+                {/* {appsData.ratings.map((ratingItem, index) => (
                   <div key={index} className="flex items-center">
-                    <span className="rating-name">{ratingItem.name}</span>
-                    {/* <span className="rating-count">count {ratingItem.count}</span> */}
+                    <span className="rating-name">{ratingItem.count + ratingItem.count / 6}</span>
                   </div>
-                ))}
+                ))} */}
               </span>
             </div>
           </div>

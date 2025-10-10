@@ -16,26 +16,28 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("home.json"),
+        loader: () => fetch("/home.json"),
         path: "/",
         Component: Home,
-        errorElement: <PageNotFound></PageNotFound>
+        errorElement: <PageNotFound></PageNotFound>,
       },
       {
         path: "/apps",
-        loader: () => fetch("apps.json"),
+        loader: () => fetch("/apps.json"),
         Component: Apps,
         errorElement: <PageNotFound></PageNotFound>,
       },
       {
         path: "/installation",
+        loader: () => fetch("/apps.json"),
         Component: Installation,
         errorElement: <PageNotFound></PageNotFound>,
       },
       {
-        path:'/cardDetails/:id',
-        Component: CardDetails
-      }
+        path: "/cardDetails/:id",
+        loader: () => fetch("/apps.json"),
+        Component: CardDetails,
+      },
     ],
   },
 ]);

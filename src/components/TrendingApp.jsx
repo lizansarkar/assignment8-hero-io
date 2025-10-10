@@ -5,7 +5,6 @@ import { data, Link } from "react-router";
 
 const TrendingApp = ({ data }) => {
   return (
-    <Link to={`/cardDetails/${singleCardData.id}`}>
       <div className="trending-app text-center px-4 py-5 bg-[#f9fafb]">
         <div className="text-center py-10">
           <h1 className="font-bold text-[40px]">Trending Apps</h1>
@@ -16,12 +15,14 @@ const TrendingApp = ({ data }) => {
 
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 mt-10">
           <Suspense fallback={<div>Loading...</div>}>
-            {data.map((singleCardData) => (
-              <AppDataCard
-                key={singleCardData.id}
-                singleCardData={singleCardData}
-              ></AppDataCard>
-            ))}
+            {
+              data.map((singleCardData) => (
+                <AppDataCard
+                  key={singleCardData.id}
+                  singleCardData={singleCardData}
+                ></AppDataCard>
+              ))
+            }
           </Suspense>
         </div>
         <div className="text-center my-10">
@@ -37,7 +38,6 @@ const TrendingApp = ({ data }) => {
           </a>
         </div>
       </div>
-    </Link>
   );
 };
 
