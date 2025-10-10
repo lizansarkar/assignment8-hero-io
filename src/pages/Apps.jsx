@@ -8,7 +8,6 @@ const Apps = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // fitler ar function
   const filteredApps = useMemo(() => {
     if (!searchTerm) {
       return appsCardData;
@@ -18,7 +17,6 @@ const Apps = () => {
     });
   }, [appsCardData, searchTerm]);
 
-  // jokhon input e kichu likhbo tokhon item gulo filter hobe
   const handleSearchChange = (event) => {
     const newSearchTerm = event.target.value;
 
@@ -27,10 +25,8 @@ const Apps = () => {
     setSearchTerm(newSearchTerm);
   };
 
-  // loader spinner dekhano
   useEffect(() => {
     if (isLoading) {
-      // show loader spinner
       const timer = setTimeout(() => {
         setIsLoading(false);
       }, 1000);
@@ -38,7 +34,7 @@ const Apps = () => {
     }
   }, [searchTerm, isLoading]);
 
-  // tarport no apsa found componer dekhano
+
   // if(!isLoading && filteredApps.length === 0) {
   //     return <AppNotFound></AppNotFound>
   // }

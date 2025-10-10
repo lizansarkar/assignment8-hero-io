@@ -10,6 +10,7 @@ import { FaDownload, FaStar } from "react-icons/fa";
 const Installation = () => {
   const loadedData = useLoaderData();
   const [installedApps, setInstalledApps] = useState(loadedData);
+  const [sort, setSort] = useState("");
 
   useEffect(() => {
     const storedIds = getStoredCard(); // ✅ LocalStorage থেকে IDs নিচ্ছে
@@ -23,10 +24,24 @@ const Installation = () => {
     const updated = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updated);
     localStorage.setItem("reedCard", JSON.stringify(updated.map((a) => a.id)));
-    toast.error("App Uninstalled Successfully!"); 
+    toast.error("App Uninstalled Successfully!");
   };
 
+const handleSort = (type) => {
+    setSort(type); 
 
+    let sortedApps = [...installedApps];
+
+    if (type === "downloads") {
+        sortedApps.sort((a, b) => b.downloads - a.downloads);
+    }
+    
+    if (type === "size") {
+        sortedApps.sort((a, b) => b.size - a.size);
+    }
+  
+    setInstalledApps(sortedApps);
+};
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -46,6 +61,25 @@ const Installation = () => {
           <p className="text-lg font-semibold text-gray-700">
             {installedApps.length} Apps Found
           </p>
+
+          <div>
+            <div className="dropdown dropdown-hover">
+              <div tabIndex={0} role="button" className="btn m-1">
+                Sort By ⬇️: {sort?sort:""}
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+              >
+                <li>
+                  <a onClick={() => handleSort("downloads")}>By Download</a>
+                </li>
+                <li>
+                  <a onClick={() => handleSort("size")}>By Size</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* Card list */}
@@ -65,8 +99,12 @@ const Installation = () => {
                 <div className="flex flex-col">
                   <h3 className="font-semibold">{app.title}</h3>
                   <div className="flex gap-3 items-center">
-                    <span className="flex justify-center items-center gap-2"><FaDownload color="54CF68"></FaDownload> {app.downloads}</span>
-                    <span className="flex justify-center items-center gap-2"><FaStar color="ff8811"></FaStar> {app.ratingAvg}</span>
+                    <span className="flex justify-center items-center gap-2">
+                      <FaDownload color="54CF68"></FaDownload> {app.downloads}
+                    </span>
+                    <span className="flex justify-center items-center gap-2">
+                      <FaStar color="ff8811"></FaStar> {app.ratingAvg}
+                    </span>
                     <p className="font-bold text-[#8c8c8c]">{app.size} mb</p>
                   </div>
                 </div>
