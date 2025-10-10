@@ -90,8 +90,8 @@ const Apps = () => {
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-5 pb-20">
         {isLoading ? (
           <div className="col-span-full text-center py-10">
-            <span className="text-xl font-semibold text-purple-600">
-              Searching for apps...
+            <span className="text-xl font-semibold text-[#000000]">
+              <span className="loading loading-dots w-32 h-32"></span> 
             </span>
           </div>
         ) : filteredApps.length === 0 ? (

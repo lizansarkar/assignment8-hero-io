@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 // import { FaDownload, FaStar } from "react-icons/fa";
 import { getStoredCard } from "../components/addToLocalStore";
-import { toast } from "react-toastify";
 import { FaDownload, FaStar } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // import { useLoaderData } from "react-router";
 // import { useState } from "react";
 
@@ -65,7 +66,7 @@ const handleSort = (type) => {
           <div>
             <div className="dropdown dropdown-hover">
               <div tabIndex={0} role="button" className="btn m-1">
-                Sort By ⬇️: {sort?sort:""}
+                Sort By ⬇️: ({sort?sort:""})
               </div>
               <ul
                 tabIndex={0}
@@ -122,6 +123,8 @@ const handleSort = (type) => {
           ))}
         </div>
       </div>
+      {/* Toast container */}
+      <ToastContainer position="top-right" autoClose={1500} theme="colored" />
     </div>
   );
 };

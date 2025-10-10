@@ -1,8 +1,13 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Header = () => {
+  const activeLinkStyles = ({ isActive }) => {
+    return isActive
+      ? "text-[#54CF68] border-b-2 border-[#54CF68] font-semibold"
+      : "text-gray-600 hover:text-gray-900";
+  };
   return (
     <header className="max-w-[1400px] mx-auto">
       <div className="navbar bg-base-100">
@@ -47,23 +52,34 @@ const Header = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-            {/* main menu te show korbe mane sojasuji */}
+          {/* main menu te show korbe mane sojasuji */}
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/" className={activeLinkStyles}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/apps">Apps</Link>
+              <NavLink to="/apps" className={activeLinkStyles}>
+                Apps
+              </NavLink>
             </li>
             <li>
-              <Link to="/installation">Installation</Link>
+              <NavLink to="/installation" className={activeLinkStyles}>
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/lizansarkar" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-6 py-3 text-white font-semibold text-lg 
+          <a
+            href="https://github.com/lizansarkar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-6 py-3 text-white font-semibold text-lg 
         rounded-xl shadow-lg transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 
-        hover:scale-[1.03] active:scale-[0.98] active:shadow-sm">
+        hover:scale-[1.03] active:scale-[0.98] active:shadow-sm"
+          >
             <FaGithub className="mr-3 h-6 w-6" />
             Contribute
           </a>
