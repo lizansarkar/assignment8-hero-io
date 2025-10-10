@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { FaChevronDown, FaDownload, FaStar } from "react-icons/fa";
 import { useLoaderData, useParams } from "react-router";
 import { addToLocalStore } from "./addToLocalStore";
-import { toast } from "react-toastify";
 import RatingsChart from "./RatingsChart";
+import { ToastContainer } from "react-toastify";
 
 export const CardDetails = () => {
   const [installed, setInstalled] = useState(false);
@@ -105,6 +105,7 @@ const handleInstall = (id) => {
       <div>
         <RatingsChart ratings={ratings}></RatingsChart>
       </div>
+      <ToastContainer position="top-right" autoClose={2000} theme="colored" />
     </div>
   );
 };

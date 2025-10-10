@@ -2,7 +2,6 @@ import React, { Suspense, useEffect, useMemo, useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../components/AppCard";
 import AppNotFound from "./error-page/AppNotFound";
-const notify = () => toast("Here is your toast.");
 
 const Apps = () => {
   const appsCardData = useLoaderData();
@@ -59,11 +58,6 @@ const Apps = () => {
         <p className="text-[#6B7280] text-xl">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
-
-        <div>
-          <button onClick={notify}>Make me a toast</button>
-          <Toaster />
-        </div>
       </div>
 
       <div className="max-w-[1400px] mx-auto flex justify-between items-center mb-10 px-5 py-10">
