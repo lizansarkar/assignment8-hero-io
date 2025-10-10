@@ -4,6 +4,7 @@ import { Link } from "react-router";
 
 const AppDataCard = ({ singleCardData }) => {
   return (
+    <Link to={`/cardDetails/${singleCardData.id}`}>
       <div>
         <div
           className="bg-white rounded-xl 
@@ -64,17 +65,12 @@ const AppDataCard = ({ singleCardData }) => {
           "
             >
               <FaStar className="w-3 h-3 mr-2" />
-              <span>
-                {singleCardData.ratings.map((ratingItem, index) => (
-                  <div key={index} className="flex items-center">
-                    <span className="rating-name">{ratingItem.name}</span>
-                  </div>
-                ))}
-              </span>
+              <span>{singleCardData.ratingAvg}</span>
             </div>
           </div>
         </div>
       </div>
+    </Link>
   );
 };
 

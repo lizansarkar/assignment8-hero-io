@@ -1,25 +1,32 @@
 import React, { useEffect, useState } from "react";
-import { FaDownload, FaStar } from "react-icons/fa";
+import { useLoaderData } from "react-router";
+// import { FaDownload, FaStar } from "react-icons/fa";
 import { getStoredCard } from "../components/addToLocalStore";
+import { toast } from "react-toastify";
+import { FaDownload, FaStar } from "react-icons/fa";
+// import { useLoaderData } from "react-router";
+// import { useState } from "react";
 
 const Installation = () => {
-  const [installedApps, setInstalledApps] = useState([]);
+  const loadedData = useLoaderData();
+  const [installedApps, setInstalledApps] = useState(loadedData);
 
   useEffect(() => {
-    const storedIds = getStoredCard();
-    fetch("/appsData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const filtered = data.filter((app) => storedIds.includes(app.id));
-        setInstalledApps(filtered);
-      });
-  }, []);
+    const storedIds = getStoredCard(); // ✅ LocalStorage থেকে IDs নিচ্ছে
+    if (storedIds.length > 0) {
+      const filtered = loadedData.filter((app) => storedIds.includes(app.id));
+      setInstalledApps(filtered);
+    }
+  }, [loadedData]);
 
   const handleUninstall = (id) => {
     const updated = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updated);
     localStorage.setItem("reedCard", JSON.stringify(updated.map((a) => a.id)));
+    toast.error("App Uninstalled Successfully!"); 
   };
+
+
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -30,7 +37,7 @@ const Installation = () => {
             Your Installed Apps
           </h1>
           <p className="text-gray-500 text-sm md:text-base">
-            Explore all your favorite apps managed by you
+            Explore all your installed & favorite apps 💫
           </p>
         </div>
 
@@ -42,57 +49,39 @@ const Installation = () => {
         </div>
 
         {/* Card list */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="space-y-4 p-4">
           {installedApps.map((app) => (
             <div
               key={app.id}
-              className="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className="flex items-center justify-between p-3 bg-white rounded-xl shadow-sm"
             >
-              <div className="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-3">
                 <img
                   src={app.image}
-                  alt={app.title}
-                  className="w-16 h-16 rounded-xl object-cover bg-gray-100"
+                  alt={app.name}
+                  className="w-12 h-12 rounded-lg"
                 />
-                <div>
-                  <h2 className="text-lg font-semibold text-gray-800">
-                    {app.title}
-                  </h2>
-                  
-                  <p className="text-sm text-gray-500">
-                    {app.companyName || "Unknown Developer"}
-                  </p>
+
+                <div className="flex flex-col">
+                  <h3 className="font-semibold">{app.title}</h3>
+                  <div className="flex gap-3 items-center">
+                    <span className="flex justify-center items-center gap-2"><FaDownload color="54CF68"></FaDownload> {app.downloads}</span>
+                    <span className="flex justify-center items-center gap-2"><FaStar color="ff8811"></FaStar> {app.ratingAvg}</span>
+                    <p className="font-bold text-[#8c8c8c]">{app.size} mb</p>
+                  </div>
                 </div>
               </div>
 
-              <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                {app.description}
-              </p>
-
-              <div className="flex items-center justify-between text-sm mb-5">
-                <span className="flex items-center gap-1 text-green-600 font-medium">
-                  <FaDownload /> {Math.floor(app.downloads / 100000)}M
-                </span>
-                <span className="flex items-center gap-1 text-yellow-500 font-medium">
-                  <FaStar /> {app.ratingAvg}
-                </span>
-                <span className="text-gray-500">{app.size} MB</span>
+              <div>
+                <button
+                  onClick={() => handleUninstall(app.id)}
+                  className="bg-green-500 text-white px-3 py-1 rounded-md cursor-pointer"
+                >
+                  Uninstalled
+                </button>
               </div>
-
-              <button
-                onClick={() => handleUninstall(app.id)}
-                className="w-full py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-semibold transition-all duration-300"
-              >
-                Uninstall
-              </button>
             </div>
           ))}
-
-          {installedApps.length === 0 && (
-            <p className="col-span-full text-center text-gray-500 mt-12 text-lg">
-              No apps installed yet 😅
-            </p>
-          )}
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const TrendingApp = ({ data }) => {
         </div>
 
         <div className="max-w-[1400px] mx-auto grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 mt-10">
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div>Loading home card data ...</div>}>
             {
               data.map((singleCardData) => (
                 <AppDataCard
@@ -27,8 +27,7 @@ const TrendingApp = ({ data }) => {
         </div>
         <div className="text-center my-10">
           <a
-            href=""
-            target="_blank"
+            href="/apps"
             rel="noopener noreferrer"
             className="px-10 py-3 text-white font-semibold text-lg 
         rounded-xl shadow-lg transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 

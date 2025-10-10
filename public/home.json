@@ -1,114 +1,146 @@
 [
   {
-    "image": "https://picsum.photos/seed/app1/300/200",
-    "title": "Ultimate TaskMaster Pro",
-    "companyName": "NextGen Studios",
-    "id": 1,
-    "description": "একটি স্মার্ট টাস্ক ম্যানেজার অ্যাপ যা দিয়ে তুমি দৈনন্দিন কাজগুলো সহজে সংগঠিত করতে পারবে।",
-    "size": 45,
-    "reviews": 1234,
-    "ratingAvg": 4.5,
-    "downloads": 500000,
-    "ratings": [
-      { "name": "5", "count": 484 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app2/300/200",
-    "title": "Super PhotoBlend Editor",
-    "companyName": "PixelWorks",
-    "id": 2,
-    "description": "একটি সহজ কিন্তু শক্তিশালী ফটো এডিটর, যেখানে তুমি ফিল্টার, ইফেক্ট আর ব্যাকগ্রাউন্ড ব্লার দিতে পারবে।",
-    "size": 60,
-    "reviews": 3210,
-    "ratingAvg": 4.2,
-    "downloads": 850000,
-    "ratings": [
-      { "name": "4", "count": 890 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app3/300/200",
-    "title": "Secure Vault Manager",
-    "companyName": "SafeTech Solutions",
-    "id": 3,
-    "description": "পাসওয়ার্ড এবং ব্যক্তিগত ফাইল সুরক্ষিত রাখার জন্য সেরা অ্যাপ।",
-    "size": 30,
-    "reviews": 850,
-    "ratingAvg": 4.8,
-    "downloads": 320000,
-    "ratings": [
-      { "name": "5", "count": 620 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app4/300/200",
-    "title": "Daily Fitness Coach",
-    "companyName": "HealthFlow",
-    "id": 4,
-    "description": "তোমার ব্যক্তিগত ওয়ার্কআউট ট্র্যাকার এবং ফিটনেস গাইড।",
-    "size": 75,
-    "reviews": 5400,
-    "ratingAvg": 4.1,
-    "downloads": 1200000,
-    "ratings": [
-      { "name": "3", "count": 450 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app5/300/200",
-    "title": "Global News Hub",
-    "companyName": "InfoStream Media",
-    "id": 5,
-    "description": "বিশ্বের সর্বশেষ খবর এক জায়গায়।",
-    "size": 25,
-    "reviews": 980,
-    "ratingAvg": 4.4,
-    "downloads": 750000,
-    "ratings": [
-      { "name": "4", "count": 550 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app6/300/200",
-    "title": "Creative Code IDE",
-    "companyName": "DevGenius",
-    "id": 6,
-    "description": "মোবাইল থেকে কোডিং শেখার এবং প্র্যাকটিস করার প্ল্যাটফর্ম।",
-    "size": 90,
-    "reviews": 2100,
+    "image": "https://picsum.photos/seed/app101/300/200",
+    "title": "Eco-Footprint Tracker",
+    "companyName": "Green Life Labs",
+    "id": 101,
+    "description": "আপনার দৈনন্দিন কার্বন নিঃসরণ ট্র্যাক করুন এবং পরিবেশবান্ধব থাকার টিপস পান।",
+    "size": 38,
+    "reviews": 1150,
     "ratingAvg": 4.7,
     "downloads": 480000,
     "ratings": [
-      { "name": "5", "count": 1200 }
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3500 }
     ]
   },
   {
-    "image": "https://picsum.photos/seed/app7/300/200",
-    "title": "Kids Learning Fun",
-    "companyName": "EduPlay Games",
-    "id": 7,
-    "description": "শিশুদের জন্য শিক্ষামূলক গেম এবং কার্যকলাপ।",
+    "image": "https://picsum.photos/seed/app102/300/200",
+    "title": "Interactive History Maps",
+    "companyName": "TimeTravel Education",
+    "id": 102,
+    "description": "বিশ্বের ঐতিহাসিক ঘটনাগুলি ইন্টারেক্টিভ ম্যাপের মাধ্যমে এক্সপ্লোর করুন।",
+    "size": 88,
+    "reviews": 920,
+    "ratingAvg": 4.9,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app103/300/200",
+    "title": "Home Repair DIY Guide",
+    "companyName": "Handy Helper Apps",
+    "id": 103,
+    "description": "সহজ ভিডিও টিউটোরিয়ালের মাধ্যমে ঘরের ছোটখাটো মেরামত নিজেই করে ফেলুন।",
+    "size": 62,
+    "reviews": 2100,
+    "ratingAvg": 4.3,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app104/300/200",
+    "title": "Daily Gratitude Journal",
+    "companyName": "Positive Mindset Tech",
+    "id": 104,
+    "description": "প্রতিদিন কৃতজ্ঞতা প্রকাশ করে আপনার মানসিক স্বাস্থ্যের উন্নতি করুন।",
+    "size": 25,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app105/300/200",
+    "title": "Digital Music Studio",
+    "companyName": "Beat Makers Ltd.",
+    "id": 105,
+    "description": "মোবাইলেই নিজের মিউজিক ট্র্যাক তৈরি করুন, রেকর্ডিং এবং মিক্সিং টুলের সাহায্যে।",
+    "size": 120,
+    "reviews": 1400,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app106/300/200",
+    "title": "Smart Shopping List",
+    "companyName": "Family Organizers",
+    "id": 106,
+    "description": "পরিবারের সকলের সাথে শেয়ার করার উপযোগী স্মার্ট গ্রোসারি এবং শপিং লিস্ট ম্যানেজার।",
+    "size": 30,
+    "reviews": 3100,
+    "ratingAvg": 4.2,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app107/300/200",
+    "title": "Pet Health Manager",
+    "companyName": "Furry Friends Software",
+    "id": 107,
+    "description": "আপনার পোষা প্রাণীর ভ্যাকসিন, অ্যাপয়েন্টমেন্ট এবং ওষুধের ডোজ ট্র্যাক করুন।",
+    "size": 45,
+    "reviews": 780,
+    "ratingAvg": 4.9,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/app108/300/200",
+    "title": "Crypto Price Alert",
+    "companyName": "Blockchain Trackers",
+    "id": 108,
+    "description": "রিয়েল-টাইমে ক্রিপ্টোকারেন্সির দাম ট্র্যাক করুন এবং ব্যক্তিগত অ্যালার্ট সেট করুন।",
     "size": 55,
-    "reviews": 1500,
-    "ratingAvg": 3.9,
-    "downloads": 900000,
-    "ratings": [
-      { "name": "2", "count": 180 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/seed/app8/300/200",
-    "title": "Simple Cooking Recipes",
-    "companyName": "KitchenHacks",
-    "id": 8,
-    "description": "সহজলভ্য উপকরণ দিয়ে নতুন রেসিপি তৈরির গাইড।",
-    "size": 40,
-    "reviews": 6500,
+    "reviews": 1800,
     "ratingAvg": 4.6,
-    "downloads": 1500000,
+    "downloads": 880000,
     "ratings": [
-      { "name": "4", "count": 2500 }
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4000 }
     ]
   }
 ]
